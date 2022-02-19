@@ -17,7 +17,7 @@ sbar = document.getElementById("search_bar");
 // });
 
 var xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://ipwhois.app/json/", true);
+    xhr.open("GET", "https://ipwhois.app/json/", true);
     xhr.onload = function(){
         if(this.status == 200){
             var content = JSON.parse(this.responseText);
@@ -35,7 +35,7 @@ var xhr = new XMLHttpRequest();
 xhr.send();
 sbutton.addEventListener("click", ()=>{
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://ipwhois.app/json/"+sbar.value, true);
+    xhr.open("GET", "https://ipwhois.app/json/"+sbar.value, true);
     xhr.onload = function(){
         if(this.status == 200){
             var content = JSON.parse(this.responseText);
