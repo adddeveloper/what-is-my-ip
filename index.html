@@ -15,23 +15,38 @@
     <title>countries</title>
 </head>
 <body>
-    <h1>what my ip?</h1>
-    <a href="instagram.com/adnanscode/">
-        <i class="bi bi-instagram"></i>
-    </a>
-    <a href="">
-        <i class="bi bi-youtube"></i>
-    </a>
-    <a href="">
-        <i class="bi bi-github"></i>
-    </a>
-    <input class="p-1" id="search_bar" type="text" placeholder="ip">
-    <button class="btn btn-success" id="search_button">search <i class="bi bi-search"></i></button>
+    <nav class="navbar border-bottom border-1 shadow-sm">
+        <div class="container-fluid flex-wrap justify-content-evenly">
+            <div class="d-flex">
+                <a class="mx-1" href="https://www.adnans.ml" target="_blank">
+                    <i class="bi bi-file-code"></i>
+                </a>
+                <a class="mx-1" href="https://instagram.com/adnanscode/" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a class="mx-1" href="https://www.youtube.com/channel/UCZ0GqtCuXYJ99XVY1aiyHOg" target="_blank">
+                    <i class="bi bi-youtube"></i>
+                </a>
+                <a class="mx-1" href="https://github.com/adddeveloper" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+            <div class="ml-auto d-flex justify-content-center">
+                <input class="p-1 mx-2 text-center" id="search_bar" type="text" placeholder="search IP here">
+                <button class="btn btn-success mx-2" id="search_button">search <i class="bi bi-search"></i></button>
+            </div>
+        </div>
+    </nav>
+    <div class="container justify-content-center align-items-center">
+        <div class="bg-random-image">
+            <h1 class="img-element">What is my ip?</h1>
+        </div>
+    </div>
     
-    <div class="container">
-        <p>~</p>
-        <p id="content"></p>
-        <p>~</p>
+    <div class="container py-5">
+        <div id="i_content" class="my-5 d-flex justify-content-evenly align-items-center flex-wrap"><img src="" style="width: 500px; height: auto;">
+            <div id="p_content" class="d-flex justify-content-evenly align-items-center flex-wrap"><p class="mx-3">IP: ...</p><p class="mx-3">Country: ...</p><p class="mx-3">City: ...</p></div>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
