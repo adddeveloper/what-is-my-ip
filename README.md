@@ -1,4 +1,4 @@
-# What is my ip
+# What Is My IP?
 
 Visit the [website](https://what-ip.netlify.app/).
 
